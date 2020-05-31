@@ -1,0 +1,6 @@
+#define PLUGIN_NAME wmm_pi
+#define PLUGIN_CATALOG_NAME wxS("opencpn-wmm_pi")
+#define PLUGIN_VERSION_MAJOR 1
+#define PLUGIN_VERSION_MINOR 1
+#define PLUGIN_VERSION_PATCH 1
+#define PLUGIN_VERSION_DATE "01/03/2016"

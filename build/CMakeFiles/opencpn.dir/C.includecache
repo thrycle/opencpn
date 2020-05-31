@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thrycle/project/OpenCPN/src/ssl/sha1.c
+sha1.h
+/home/thrycle/project/OpenCPN/src/ssl/sha1.h
+stdio.h
+-
+polarssl/platform.h
+/home/thrycle/project/OpenCPN/src/ssl/polarssl/platform.h
+
+/home/thrycle/project/OpenCPN/src/ssl/sha1.h
+string.h
+-
+basetsd.h
+-
+inttypes.h
+-
+sha1_alt.h
+/home/thrycle/project/OpenCPN/src/ssl/sha1_alt.h
+

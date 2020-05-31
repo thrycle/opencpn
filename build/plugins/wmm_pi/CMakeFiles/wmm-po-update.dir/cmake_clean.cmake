@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/wmm-po-update"
+  "../../../plugins/wmm_pi/po/ar_SA.po.dummy"
+  "../../../plugins/wmm_pi/po/ca_ES.po.dummy"
+  "../../../plugins/wmm_pi/po/cs_CZ.po.dummy"
+  "../../../plugins/wmm_pi/po/da_DK.po.dummy"
+  "../../../plugins/wmm_pi/po/de_DE.po.dummy"
+  "../../../plugins/wmm_pi/po/el_GR.po.dummy"
+  "../../../plugins/wmm_pi/po/es_ES.po.dummy"
+  "../../../plugins/wmm_pi/po/et_EE.po.dummy"
+  "../../../plugins/wmm_pi/po/fi_FI.po.dummy"
+  "../../../plugins/wmm_pi/po/fil_PH.po.dummy"
+  "../../../plugins/wmm_pi/po/fr_FR.po.dummy"
+  "../../../plugins/wmm_pi/po/gl_ES.po.dummy"
+  "../../../plugins/wmm_pi/po/hi_IN.po.dummy"
+  "../../../plugins/wmm_pi/po/hu_HU.po.dummy"
+  "../../../plugins/wmm_pi/po/id_ID.po.dummy"
+  "../../../plugins/wmm_pi/po/is_IS.po.dummy"
+  "../../../plugins/wmm_pi/po/it_IT.po.dummy"
+  "../../../plugins/wmm_pi/po/ja_JP.po.dummy"
+  "../../../plugins/wmm_pi/po/ko_KR.po.dummy"
+  "../../../plugins/wmm_pi/po/mr_IN.po.dummy"
+  "../../../plugins/wmm_pi/po/nb_NO.po.dummy"
+  "../../../plugins/wmm_pi/po/nl_NL.po.dummy"
+  "../../../plugins/wmm_pi/po/pl_PL.po.dummy"
+  "../../../plugins/wmm_pi/po/pt_BR.po.dummy"
+  "../../../plugins/wmm_pi/po/pt_PT.po.dummy"
+  "../../../plugins/wmm_pi/po/ro_RO.po.dummy"
+  "../../../plugins/wmm_pi/po/ru_RU.po.dummy"
+  "../../../plugins/wmm_pi/po/sv_SE.po.dummy"
+  "../../../plugins/wmm_pi/po/th_TH.po.dummy"
+  "../../../plugins/wmm_pi/po/tr_TR.po.dummy"
+  "../../../plugins/wmm_pi/po/vi_VN.po.dummy"
+  "../../../plugins/wmm_pi/po/zh_CN.po.dummy"
+  "../../../plugins/wmm_pi/po/zh_TW.po.dummy"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/wmm-po-update.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

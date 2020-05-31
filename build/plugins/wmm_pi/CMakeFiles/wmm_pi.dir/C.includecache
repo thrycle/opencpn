@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thrycle/project/OpenCPN/plugins/wmm_pi/src/GeomagnetismHeader.h
+
+/home/thrycle/project/OpenCPN/plugins/wmm_pi/src/GeomagnetismLibrary.c
+stdio.h
+-
+string.h
+-
+math.h
+-
+stdlib.h
+-
+ctype.h
+-
+assert.h
+-
+GeomagnetismHeader.h
+/home/thrycle/project/OpenCPN/plugins/wmm_pi/src/GeomagnetismHeader.h
+

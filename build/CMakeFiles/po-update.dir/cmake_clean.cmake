@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "../include/config.h"
+  "CMakeFiles/po-update"
+  "../po/opencpn_ar_SA.po.dummy"
+  "../po/opencpn_ca_ES.po.dummy"
+  "../po/opencpn_cs_CZ.po.dummy"
+  "../po/opencpn_da_DK.po.dummy"
+  "../po/opencpn_de_DE.po.dummy"
+  "../po/opencpn_el_GR.po.dummy"
+  "../po/opencpn_es_ES.po.dummy"
+  "../po/opencpn_et_EE.po.dummy"
+  "../po/opencpn_fi_FI.po.dummy"
+  "../po/opencpn_fil_PH.po.dummy"
+  "../po/opencpn_fr_FR.po.dummy"
+  "../po/opencpn_gl_ES.po.dummy"
+  "../po/opencpn_hi_IN.po.dummy"
+  "../po/opencpn_hu_HU.po.dummy"
+  "../po/opencpn_id_ID.po.dummy"
+  "../po/opencpn_is_IS.po.dummy"
+  "../po/opencpn_it_IT.po.dummy"
+  "../po/opencpn_ja_JP.po.dummy"
+  "../po/opencpn_ko_KR.po.dummy"
+  "../po/opencpn_mr_IN.po.dummy"
+  "../po/opencpn_nb_NO.po.dummy"
+  "../po/opencpn_nl_NL.po.dummy"
+  "../po/opencpn_pl_PL.po.dummy"
+  "../po/opencpn_pt_BR.po.dummy"
+  "../po/opencpn_pt_PT.po.dummy"
+  "../po/opencpn_ro_RO.po.dummy"
+  "../po/opencpn_ru_RU.po.dummy"
+  "../po/opencpn_sv_SE.po.dummy"
+  "../po/opencpn_th_TH.po.dummy"
+  "../po/opencpn_tr_TR.po.dummy"
+  "../po/opencpn_vi_VN.po.dummy"
+  "../po/opencpn_zh_CN.po.dummy"
+  "../po/opencpn_zh_TW.po.dummy"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/po-update.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

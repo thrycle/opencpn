@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/dashboard-po-update"
+  "../../../plugins/dashboard_pi/po/ar_SA.po.dummy"
+  "../../../plugins/dashboard_pi/po/ca_ES.po.dummy"
+  "../../../plugins/dashboard_pi/po/cs_CZ.po.dummy"
+  "../../../plugins/dashboard_pi/po/da_DK.po.dummy"
+  "../../../plugins/dashboard_pi/po/de_DE.po.dummy"
+  "../../../plugins/dashboard_pi/po/el_GR.po.dummy"
+  "../../../plugins/dashboard_pi/po/es_ES.po.dummy"
+  "../../../plugins/dashboard_pi/po/et_EE.po.dummy"
+  "../../../plugins/dashboard_pi/po/fi_FI.po.dummy"
+  "../../../plugins/dashboard_pi/po/fil_PH.po.dummy"
+  "../../../plugins/dashboard_pi/po/fr_FR.po.dummy"
+  "../../../plugins/dashboard_pi/po/gl_ES.po.dummy"
+  "../../../plugins/dashboard_pi/po/hi_IN.po.dummy"
+  "../../../plugins/dashboard_pi/po/hu_HU.po.dummy"
+  "../../../plugins/dashboard_pi/po/id_ID.po.dummy"
+  "../../../plugins/dashboard_pi/po/is_IS.po.dummy"
+  "../../../plugins/dashboard_pi/po/it_IT.po.dummy"
+  "../../../plugins/dashboard_pi/po/ja_JP.po.dummy"
+  "../../../plugins/dashboard_pi/po/ko_KR.po.dummy"
+  "../../../plugins/dashboard_pi/po/mr_IN.po.dummy"
+  "../../../plugins/dashboard_pi/po/nb_NO.po.dummy"
+  "../../../plugins/dashboard_pi/po/nl_NL.po.dummy"
+  "../../../plugins/dashboard_pi/po/pl_PL.po.dummy"
+  "../../../plugins/dashboard_pi/po/pt_BR.po.dummy"
+  "../../../plugins/dashboard_pi/po/pt_PT.po.dummy"
+  "../../../plugins/dashboard_pi/po/ro_RO.po.dummy"
+  "../../../plugins/dashboard_pi/po/ru_RU.po.dummy"
+  "../../../plugins/dashboard_pi/po/sv_SE.po.dummy"
+  "../../../plugins/dashboard_pi/po/th_TH.po.dummy"
+  "../../../plugins/dashboard_pi/po/tr_TR.po.dummy"
+  "../../../plugins/dashboard_pi/po/vi_VN.po.dummy"
+  "../../../plugins/dashboard_pi/po/zh_CN.po.dummy"
+  "../../../plugins/dashboard_pi/po/zh_TW.po.dummy"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/dashboard-po-update.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

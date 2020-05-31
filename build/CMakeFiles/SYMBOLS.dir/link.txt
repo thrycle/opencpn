@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSYMBOLS.a  CMakeFiles/SYMBOLS.dir/src/chartsymbols.cpp.o
+/usr/bin/ranlib libSYMBOLS.a
